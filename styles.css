@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&family=Inter:wght@400;700;800&family=Raleway:ital,wght@1,300&display=swap");
+* {
+  font-family: "Great Vibes", cursive;
+  font-family: "Inter", sans-serif;
+  font-family: "Raleway", sans-serif;
+}
+html,
+body {
+  box-sizing: border-box;
+  height: 100%;
+  width: 100%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("img-nature.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  background-color: #5cdb95;
+  padding: 2rem;
+  width: 50%;
+  height: auto;
+  gap: 2rem;
+  border-radius: 2rem;
+}
+
+.btn {
+  color: #edf5b1;
+  background-color: #05386b;
+  border: none;
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  max-width: 100%;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #edf5b1;
+}
